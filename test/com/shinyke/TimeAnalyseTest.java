@@ -44,6 +44,8 @@ public class TimeAnalyseTest {
         TimeUnit[] unit = normalizer.getTimeUnit();
         System.out.println("9小时20分钟后开会");
         System.out.println(DateUtil.formatDateDefault(unit[0].getTime()) + "-" + unit[0].getIsAllDayTime());
+
+
 //
 //        normalizer.parse("早上六点起床");// 注意此处识别到6天在今天已经过去，自动识别为明早六点（未来倾向，可通过开关关闭：new TimeNormalizer(classPath+"/TimeExp.m", false)）
 //        unit = normalizer.getTimeUnit();
