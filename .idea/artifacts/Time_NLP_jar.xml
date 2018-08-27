@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact name="Time-NLP:jar">
+    <output-path>$PROJECT_DIR$/classes/artifacts/Time_NLP_jar</output-path>
+    <root id="root">
+      <element id="archive" name="Time-NLP.jar">
+        <element id="module-output" name="Time-NLP" />
+      </element>
+      <element id="directory" name="libs">
+        <element id="library" level="project" name="Maven: commons-cli:commons-cli:1.2" />
+        <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.7.23" />
+      </element>
+    </root>
+  </artifact>
+</component>
