@@ -40,7 +40,7 @@ public class TimeAnalyseTest {
         TimeNormalizer normalizer = new TimeNormalizer(url.toURI().toString());
         normalizer.setPreferFuture(true);
         
-        normalizer.parse("9小时20分钟后开会");// 抽取时间
+        normalizer.parse("二十四小时三十一分钟后开会");// 抽取时间
         TimeUnit[] unit = normalizer.getTimeUnit();
         System.out.println("9小时20分钟后开会");
         System.out.println(DateUtil.formatDateDefault(unit[0].getTime()) + "-" + unit[0].getIsAllDayTime());

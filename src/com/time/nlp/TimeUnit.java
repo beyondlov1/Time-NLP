@@ -332,6 +332,7 @@ public class TimeUnit {
             isAllDayTime = false;
         }
 
+        //增加对\d+分钟后语句的支持
         rule = "(\\d+)分钟";
         pattern = Pattern.compile(rule);
         match = pattern.matcher(Time_Expression);
