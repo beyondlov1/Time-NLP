@@ -36,6 +36,7 @@ public class TimeNormalizer implements Serializable {
     private String timeBase;
     private String oldTimeBase;
     private static Pattern patterns = null;
+    private String originTarget;
     private String target;
     private TimeUnit[] timeToken = new TimeUnit[0];
 
@@ -117,6 +118,7 @@ public class TimeNormalizer implements Serializable {
      */
     public TimeUnit[] parse(String target) {
         this.target = target;
+        this.originTarget = target;
         this.timeBase = new SimpleDateFormat("yyyy-MM-dd-HH-mm-ss").format(Calendar.getInstance().getTime());// TODO
         // Calendar.getInstance().getTime()换成new
         // Date？
@@ -131,7 +133,7 @@ public class TimeNormalizer implements Serializable {
     private void postHandling() {
         for (TimeUnit timeUnit : timeToken) {
             timeUnit.Expression_Without_Time_Expression = target.replaceAll(timeUnit.Time_Expression+"后*", "");
-            timeUnit.Origin_Time_Expression = target.replace(timeUnit.Expression_Without_Time_Expression, "");
+            timeUnit.Origin_Time_Expression = originTarget.replace(timeUnit.Expression_Without_Time_Expression, "");
         }
     }
 
