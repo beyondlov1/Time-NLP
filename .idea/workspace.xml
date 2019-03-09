@@ -8,7 +8,7 @@
   <component name="ChangeListManager">
     <list default="true" id="ba0ea0b1-f1a6-4a77-aa78-c06bf9e3a0d7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/time/nlp/TimeNormalizer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/time/nlp/TimeNormalizer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/artifacts/Time_NLP_jar/Time-NLP.jar" beforeDir="false" afterPath="$PROJECT_DIR$/classes/artifacts/Time_NLP_jar/Time-NLP.jar" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -74,8 +74,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/time/nlp/TimeNormalizer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="371">
-              <caret line="133" column="45" lean-forward="true" selection-start-line="133" selection-start-column="45" selection-end-line="133" selection-end-column="45" />
+            <state relative-caret-position="390">
+              <caret line="134" column="14" selection-start-line="134" selection-start-column="14" selection-end-line="134" selection-end-column="14" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="docComment;class#TimeNormalizer#0" />
@@ -211,7 +211,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552134363252" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552142494566" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
@@ -294,7 +294,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1552127905344</updated>
-      <workItem from="1552127907480" duration="4900000" />
+      <workItem from="1552127907480" duration="6165000" />
     </task>
     <task id="LOCAL-00001" summary="1. 取出logger， common-cli依赖， 改为sout输出&#10;2. TimeUnit 中添加了输入文本原始信息">
       <created>1552132088747</created>
@@ -303,16 +303,17 @@
       <option name="project" value="LOCAL" />
       <updated>1552132088747</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="TimeUnit 中添加了输入文本原始信息">
+      <created>1552134381868</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1552134381868</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TimeAnalyseTest_testTimeNLP - 2019.03.09 at 18h 51m 15s.xml">
-      <configuration name="TimeAnalyseTest.testTimeNLP" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TimeAnalyseTest_testTimeNLP - 2019.03.09 at 18h 54m 02s.xml">
-      <configuration name="TimeAnalyseTest.testTimeNLP" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TimeAnalyseTest_testTimeNLP - 2019.03.09 at 18h 57m 26s.xml">
       <configuration name="TimeAnalyseTest.testTimeNLP" configurationId="JUnit" />
     </history-entry>
@@ -337,9 +338,15 @@
     <history-entry file="TimeAnalyseTest_testTimeNLP - 2019.03.09 at 19h 39m 26s.xml">
       <configuration name="TimeAnalyseTest.testTimeNLP" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TimeAnalyseTest_testTimeNLP - 2019.03.09 at 20h 25m 27s.xml">
+      <configuration name="TimeAnalyseTest.testTimeNLP" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TimeAnalyseTest_testTimeNLP - 2019.03.09 at 20h 25m 55s.xml">
+      <configuration name="TimeAnalyseTest.testTimeNLP" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4900000" />
+    <option name="totallyTimeSpent" value="6165000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="861" y="0" width="1926" height="1035" extended-state="6" />
@@ -350,7 +357,7 @@
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
@@ -360,8 +367,8 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32998884" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.26978818" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32998884" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.26978818" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -407,7 +414,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1. 取出logger， common-cli依赖， 改为sout输出&#10;2. TimeUnit 中添加了输入文本原始信息" />
-    <option name="LAST_COMMIT_MESSAGE" value="1. 取出logger， common-cli依赖， 改为sout输出&#10;2. TimeUnit 中添加了输入文本原始信息" />
+    <MESSAGE value="TimeUnit 中添加了输入文本原始信息" />
+    <option name="LAST_COMMIT_MESSAGE" value="TimeUnit 中添加了输入文本原始信息" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -510,8 +518,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/time/nlp/TimeNormalizer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="371">
-          <caret line="133" column="45" lean-forward="true" selection-start-line="133" selection-start-column="45" selection-end-line="133" selection-end-column="45" />
+        <state relative-caret-position="390">
+          <caret line="134" column="14" selection-start-line="134" selection-start-column="14" selection-end-line="134" selection-end-column="14" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="docComment;class#TimeNormalizer#0" />
