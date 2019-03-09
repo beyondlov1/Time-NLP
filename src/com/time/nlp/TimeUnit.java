@@ -28,6 +28,8 @@ public class TimeUnit {
     public String Time_Norm = "";
     public int[] time_full;
     public int[] time_origin;
+    public String Origin_Time_Expression = null; // 时间表达式的原始文字如： 明天下午十点吃饭->明天下午十点 ； 获得的逻辑为原始文字除去下方的文字
+    public String Expression_Without_Time_Expression = null; // 除时间表达式的文字如： 明天下午十点吃饭->吃饭
     private Date time;
     private Boolean isAllDayTime = true;
     private boolean isFirstTimeSolveContext = true;

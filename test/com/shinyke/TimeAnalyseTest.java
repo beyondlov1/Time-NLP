@@ -44,6 +44,8 @@ public class TimeAnalyseTest {
         TimeUnit[] unit = normalizer.getTimeUnit();
         System.out.println("9小时20分钟后开会");
         System.out.println(DateUtil.formatDateDefault(unit[0].getTime()) + "-" + unit[0].getIsAllDayTime());
+        System.out.println(unit[0].Origin_Time_Expression);
+        System.out.println(unit[0].Expression_Without_Time_Expression);
 
 
 //

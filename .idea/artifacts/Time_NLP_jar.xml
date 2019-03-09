@@ -5,10 +5,6 @@
       <element id="archive" name="Time-NLP.jar">
         <element id="module-output" name="Time-NLP" />
       </element>
-      <element id="directory" name="libs">
-        <element id="library" level="project" name="Maven: commons-cli:commons-cli:1.2" />
-        <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.7.23" />
-      </element>
     </root>
   </artifact>
 </component>

@@ -11,9 +11,6 @@
  */
 package com.time.util;
 
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
-
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Calendar;
@@ -29,7 +26,7 @@ import java.util.List;
  * @since 2016年3月8日
  */
 public class DateUtil extends CommonDateUtil {
-    private static final Logger LOGGER = LoggerFactory.getLogger(DateUtil.class);
+//    private static final Logger LOGGER = LoggerFactory.getLogger(DateUtil.class);
 
     /**
      * 是否是今天
@@ -112,7 +109,7 @@ public class DateUtil extends CommonDateUtil {
      * 处理相对日期的相对运算（当前只支持周、月）
      *
      * @param date
-     * @param hourIn24
+     * @param calUnit
      * @return
      */
     public static Date getRelativeTime(final Date date, final int calUnit, final int relative) {
@@ -152,7 +149,6 @@ public class DateUtil extends CommonDateUtil {
      * 默认时间格式化
      *
      * @param date
-     * @param format
      * @return
      */
     public static String formatDateDefault(Date date) {
@@ -179,7 +175,9 @@ public class DateUtil extends CommonDateUtil {
         try {
             Date ndate = sdf.parse(strDateTime);
             String str = sdf.format(ndate);
-            LOGGER.debug("func<checkDateFormatAndValite> strDateTime<" + strDateTime + "> format<" + format +
+//            LOGGER.debug("func<checkDateFormatAndValite> strDateTime<" + strDateTime + "> format<" + format +
+//                    "> str<" + str + ">");
+            System.out.println("func<checkDateFormatAndValite> strDateTime<" + strDateTime + "> format<" + format +
                     "> str<" + str + ">");
             if (str.equals(strDateTime)) {
                 return true;
