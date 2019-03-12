@@ -8,7 +8,7 @@
   <component name="ChangeListManager">
     <list default="true" id="ba0ea0b1-f1a6-4a77-aa78-c06bf9e3a0d7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/artifacts/Time_NLP_jar/Time-NLP.jar" beforeDir="false" afterPath="$PROJECT_DIR$/classes/artifacts/Time_NLP_jar/Time-NLP.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/time/nlp/TimeNormalizer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/time/nlp/TimeNormalizer.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -19,11 +19,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/time/util/DateUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
+            <state relative-caret-position="57">
               <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -44,7 +44,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="487">
+            <state relative-caret-position="1273">
               <caret line="67" column="36" selection-start-line="67" selection-start-column="36" selection-end-line="67" selection-end-column="36" />
             </state>
           </provider>
@@ -62,8 +62,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/time/nlp/stringPreHandlingModule.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+            <state relative-caret-position="108">
+              <caret line="27" column="25" lean-forward="true" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -74,30 +74,23 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/time/nlp/TimeNormalizer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="134" column="14" selection-start-line="134" selection-start-column="14" selection-end-line="134" selection-end-column="14" />
+            <state relative-caret-position="597">
+              <caret line="346" column="69" selection-start-line="346" selection-start-column="69" selection-end-line="346" selection-end-column="69" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="docComment;class#TimeNormalizer#0" />
                 <element signature="method#TimeNormalizer#0;class#TimeNormalizer#0" />
-                <element signature="e#1275#1734#1" />
-                <element signature="e#1293#1596#0" />
-                <element signature="e#1617#1724#0" />
                 <element signature="docComment;method#TimeNormalizer#1;class#TimeNormalizer#0" />
                 <element signature="method#TimeNormalizer#1;class#TimeNormalizer#0" />
-                <element signature="e#1879#2094#1" />
-                <element signature="e#1897#1956#0" />
-                <element signature="e#1977#2084#0" />
                 <element signature="docComment;method#TimeNormalizer#2;class#TimeNormalizer#0" />
                 <element signature="docComment;method#parse#0;class#TimeNormalizer#0" />
-                <element signature="method#parse#0;class#TimeNormalizer#0" />
-                <element signature="docComment;method#parse#1;class#TimeNormalizer#0" />
-                <element signature="docComment;method#getTimeBase#0;class#TimeNormalizer#0" />
-                <element signature="docComment;method#getOldTimeBase#0;class#TimeNormalizer#0" />
-                <element signature="docComment;method#setTimeBase#0;class#TimeNormalizer#0" />
-                <element signature="docComment;method#resetTimeBase#0;class#TimeNormalizer#0" />
-                <element signature="docComment;method#getTimeUnit#0;class#TimeNormalizer#0" />
-                <element signature="docComment;method#preHandling#0;class#TimeNormalizer#0" />
+                <element signature="e#5489#5490#0" expanded="true" />
+                <element signature="e#5628#5629#0" expanded="true" />
+                <element signature="e#5704#5705#0" expanded="true" />
+                <element signature="e#5815#5816#0" expanded="true" />
+                <element signature="e#5954#5955#0" expanded="true" />
+                <element signature="e#6073#6074#0" expanded="true" />
+                <element signature="e#6230#6231#0" expanded="true" />
                 <element signature="docComment;method#filterTimeUnit#0;class#TimeNormalizer#0" />
                 <element signature="method#filterTimeUnit#0;class#TimeNormalizer#0" />
                 <element signature="method#readModel#0;class#TimeNormalizer#0" />
@@ -119,8 +112,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/time/nlp/TimeUnit.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="338" column="40" lean-forward="true" selection-start-line="338" selection-start-column="40" selection-end-line="338" selection-end-column="40" />
+            <state relative-caret-position="6232">
+              <caret line="338" column="40" selection-start-line="338" selection-start-column="40" selection-end-line="338" selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -131,7 +124,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/time/enums/RangeTimeEnum.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="181">
+            <state relative-caret-position="228">
               <caret line="22" column="12" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
             </state>
           </provider>
@@ -170,6 +163,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -200,18 +194,38 @@
               <item name="Time-NLP" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Time-NLP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Time-NLP" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Time-NLP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Time-NLP" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="time" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Time-NLP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Time-NLP" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="time" type="462c0819:PsiDirectoryNode" />
+              <item name="nlp" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552142494566" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552404754522" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
@@ -237,6 +251,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.time.util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TimeNormalizer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.time.nlp.TimeNormalizer" />
+      <module name="Time-NLP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.time.nlp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -279,6 +306,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.TimeAnalyseTest.testTimeNLP" />
+        <item itemvalue="Application.TimeNormalizer" />
         <item itemvalue="JUnit.TimeNewPatternTest.test" />
         <item itemvalue="Application.CommonDateUtil" />
       </list>
@@ -294,7 +322,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1552127905344</updated>
-      <workItem from="1552127907480" duration="6165000" />
+      <workItem from="1552127907480" duration="6787000" />
+      <workItem from="1552401318285" duration="3268000" />
     </task>
     <task id="LOCAL-00001" summary="1. 取出logger， common-cli依赖， 改为sout输出&#10;2. TimeUnit 中添加了输入文本原始信息">
       <created>1552132088747</created>
@@ -310,7 +339,14 @@
       <option name="project" value="LOCAL" />
       <updated>1552134381868</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="打包">
+      <created>1552142517593</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1552142517593</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -346,41 +382,41 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6165000" />
+    <option name="totallyTimeSpent" value="10055000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="861" y="0" width="1926" height="1035" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25320512" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Messages" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" weight="0.32998884" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32998884" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.26978818" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.26978818" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32998884" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Maven" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -411,11 +447,26 @@
         </entry>
       </map>
     </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1. 取出logger， common-cli依赖， 改为sout输出&#10;2. TimeUnit 中添加了输入文本原始信息" />
     <MESSAGE value="TimeUnit 中添加了输入文本原始信息" />
-    <option name="LAST_COMMIT_MESSAGE" value="TimeUnit 中添加了输入文本原始信息" />
+    <MESSAGE value="打包" />
+    <option name="LAST_COMMIT_MESSAGE" value="打包" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -444,20 +495,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/time/nlp/TimePoint.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="27" column="22" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/time/enums/RangeTimeEnum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="22" column="12" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/text/SimpleDateFormat.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
@@ -465,16 +502,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/time/util/CommonDateUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/time/util/DateUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
+        <state relative-caret-position="57">
           <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -491,57 +521,78 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="487">
+        <state relative-caret-position="1273">
           <caret line="67" column="36" selection-start-line="67" selection-start-column="36" selection-end-line="67" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/time/util/CommonDateUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/time/nlp/TimePoint.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="27" column="22" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/time/nlp/TimeUnit.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="338" column="40" lean-forward="true" selection-start-line="338" selection-start-column="40" selection-end-line="338" selection-end-column="40" />
+        <state relative-caret-position="6232">
+          <caret line="338" column="40" selection-start-line="338" selection-start-column="40" selection-end-line="338" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/time/enums/RangeTimeEnum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="22" column="12" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/time/nlp/stringPreHandlingModule.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+        <state relative-caret-position="108">
+          <caret line="27" column="25" lean-forward="true" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="1957" column="18" selection-start-line="1957" selection-start-column="18" selection-end-line="1957" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/time/nlp/TimeNormalizer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="134" column="14" selection-start-line="134" selection-start-column="14" selection-end-line="134" selection-end-column="14" />
+        <state relative-caret-position="597">
+          <caret line="346" column="69" selection-start-line="346" selection-start-column="69" selection-end-line="346" selection-end-column="69" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="docComment;class#TimeNormalizer#0" />
             <element signature="method#TimeNormalizer#0;class#TimeNormalizer#0" />
-            <element signature="e#1275#1734#1" />
-            <element signature="e#1293#1596#0" />
-            <element signature="e#1617#1724#0" />
             <element signature="docComment;method#TimeNormalizer#1;class#TimeNormalizer#0" />
             <element signature="method#TimeNormalizer#1;class#TimeNormalizer#0" />
-            <element signature="e#1879#2094#1" />
-            <element signature="e#1897#1956#0" />
-            <element signature="e#1977#2084#0" />
             <element signature="docComment;method#TimeNormalizer#2;class#TimeNormalizer#0" />
             <element signature="docComment;method#parse#0;class#TimeNormalizer#0" />
-            <element signature="method#parse#0;class#TimeNormalizer#0" />
-            <element signature="docComment;method#parse#1;class#TimeNormalizer#0" />
-            <element signature="docComment;method#getTimeBase#0;class#TimeNormalizer#0" />
-            <element signature="docComment;method#getOldTimeBase#0;class#TimeNormalizer#0" />
-            <element signature="docComment;method#setTimeBase#0;class#TimeNormalizer#0" />
-            <element signature="docComment;method#resetTimeBase#0;class#TimeNormalizer#0" />
-            <element signature="docComment;method#getTimeUnit#0;class#TimeNormalizer#0" />
-            <element signature="docComment;method#preHandling#0;class#TimeNormalizer#0" />
+            <element signature="e#5489#5490#0" expanded="true" />
+            <element signature="e#5628#5629#0" expanded="true" />
+            <element signature="e#5704#5705#0" expanded="true" />
+            <element signature="e#5815#5816#0" expanded="true" />
+            <element signature="e#5954#5955#0" expanded="true" />
+            <element signature="e#6073#6074#0" expanded="true" />
+            <element signature="e#6230#6231#0" expanded="true" />
             <element signature="docComment;method#filterTimeUnit#0;class#TimeNormalizer#0" />
             <element signature="method#filterTimeUnit#0;class#TimeNormalizer#0" />
             <element signature="method#readModel#0;class#TimeNormalizer#0" />
