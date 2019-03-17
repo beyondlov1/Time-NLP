@@ -137,7 +137,7 @@ public class TimeNormalizer implements Serializable {
 
             int interval = timeUnit.Time_Expression.length() * 2 + 1;
             for (int i = 0; i < originTarget.length(); i++) {
-                String substring = originTarget.substring(i, (i + interval) < (originTarget.length() - 1) ? (i + interval) : (originTarget.length() - 1));
+                String substring = originTarget.substring(i, (i + interval) < (originTarget.length() ) ? (i + interval) : (originTarget.length()));
                 String subCompareStr = preHandling(substring);
                 if (subCompareStr.contains(timeUnit.Time_Expression)){ // 初步确认范围
                     //进一步确定
